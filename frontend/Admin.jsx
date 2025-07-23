@@ -4,13 +4,13 @@ const Admin = () => {
   const [carts, setCarts] = useState([]);
 
   const fetchCarts = async () => {
-    const res = await fetch('http://localhost:3001/admin/carts');
+    const res = await fetch('https://qr-grocery-backend.onrender.com/admin/carts');
     const data = await res.json();
     setCarts(data);
   };
 
   const handleAction = async (id, action) => {
-    await fetch(`http://localhost:3001/admin/cart/${id}/${action}`, { method: 'POST' });
+    await fetch(`https://qr-grocery-backend.onrender.com/admin/cart/${id}/${action}`, { method: 'POST' });
     fetchCarts();
   };
 

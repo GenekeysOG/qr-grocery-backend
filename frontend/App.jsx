@@ -9,7 +9,7 @@ const App = () => {
 
   useEffect(() => {
     if (!query) return setMatches([]);
-    fetch(`http://localhost:3001/search?q=${query}`)
+    fetch(`https://qr-grocery-backend.onrender.com/search?q=${query}`)
       .then(res => res.json())
       .then(setMatches);
   }, [query]);
@@ -21,7 +21,7 @@ const App = () => {
   };
 
   const confirmCart = async () => {
-    const res = await fetch('http://localhost:3001/cart', {
+    const res = await fetch('https://qr-grocery-backend.onrender.com/cart', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ items: cart })
