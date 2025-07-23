@@ -1,0 +1,27 @@
+[
+  {
+    "Category": "Beverages",
+    "Item": "Minute Maid Sugar Fruit Punch",
+    "Latest_Price": 3.79
+  },
+  {
+    "Category": "Beverages",
+    "Item": "Simply Grapefruit Juice",
+    "Latest_Price": 5.89
+  },
+  {
+    "Category": "Beverages",
+    "Item": "Spindrift Sparkling Water",
+    "Latest_Price": 6.29
+  },
+  {
+    "Category": "Beverages",
+    "Item": "Turkey Hill Green Tea",
+    "Latest_Price": 3.39
+  },
+  {
+    "Category": "Dairy & Eggs",
+    "Item": "Cracker Barrel Cheddar Sticks",
+    "Latest_Price": 5.29
+  }
+]
